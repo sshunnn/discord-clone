@@ -68,7 +68,7 @@ const Sidebar = () => {
         <div className="sidebarFooter">
           <div className="sidebarAccount">
             <img
-              src={user?.photo ? user?.photo : "./discordIcon.png"}
+              src={user?.photoUrl ? user?.photoUrl : "./discordIcon.png"}
               alt=""
               onClick={() => auth.signOut()}
             />
