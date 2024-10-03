@@ -1,3 +1,4 @@
+import React from "react";
 import { DocumentData } from "firebase/firestore";
 import "./SidebarChannel.scss";
 import { useAppDispatch } from "../../app/hooks";
