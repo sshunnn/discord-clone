@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
+import { useEffect } from "react";
 import "./App.scss";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
 import Sidebar from "./components/sidebar/Sidebar";

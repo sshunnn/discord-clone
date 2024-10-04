@@ -29,7 +29,7 @@ const useCollection = (data: string) => {
       });
       setDocuments(channelsResults);
     });
-  }, []);
+  }, [collectionRef]);
 
   return { documents };
 };
