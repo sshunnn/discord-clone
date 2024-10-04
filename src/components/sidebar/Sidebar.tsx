@@ -58,7 +58,7 @@ const Sidebar = () => {
             {channels.map(({ id, channel }) => (
               <SidebarChannel
                 key={id}
-                id={channel.id}
+                id={id}
                 channel={channel}
               />
             ))}
